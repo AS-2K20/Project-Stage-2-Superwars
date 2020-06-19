@@ -71,7 +71,7 @@ Add your logic in `getRandomStrength()` method, such that it should _return a ra
 In `buildPlayers()`, loop through the created JSON objects and accumulate HTML template as below and _return HTML element_.
  ```JS
 <div class="player">
-    <img src="${players[i].image}">
+    <img src="${players[i].image}"alt=""> 
     <div class="name">${players[i].name}</div>
     <div class="strength">${players[i].strength}</div>
 </div>
