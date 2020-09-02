@@ -42,7 +42,7 @@ const initPlayers = (players) => {
 const getRandomStrength = () => {
     // Return a random integer (0,100]
     // Note: You can use Math.random() and Math.ceil()
-    var strength = Math.random(1,5);
+    var strength = (Math.random(1,100))*100;
     return Math.ceil(strength);
 }
 
